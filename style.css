@@ -93,7 +93,7 @@ section {
 /* Cards */
 .card {
   padding: 50px;
-  background-color: lightblue;
+  background-color: rgb(108, 218, 255);
   border-radius: 60px;
   margin-block: 30px;
 }
@@ -118,11 +118,10 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: rgb(108, 218, 255);
   border-bottom-right-radius: 60px;
   border-bottom-left-radius: 60px;
   margin-bottom: 40px;
-  color: black;
 }
 
 #hero h1 {
@@ -133,26 +132,31 @@ section {
   margin-bottom: 30px;
 }
 
+.quotation-marks {
+  font-size: 60px;
+}
+
 /* Intro */
 #intro {
-  color: blue;
+  background-color: rgb(108, 218, 255, 0.3);
+  padding-block: 80px;
+  border-radius: 50px;
   text-align: center;
+  margin-block: 40px;
+}
+
+#intro p {
+  text-shadow: 0px 0px 1px black;
 }
 
 #intro h2 {
   margin-bottom: 20px;
-}
-
-#intro p {
-  color: black;
+  color: blue;
 }
 
 /* Footer */
 #footer {
   padding: 40px;
-  background-color: rgb(0, 0, 27);
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
 }
 
 #footer > * {
